@@ -1,18 +1,12 @@
 <!--index.wxml-->
-<view class="list">
-	<view>
-		<view>口</view>
-		<view>标题：待完成事项</view>
-		<view>时间:2017-06-29 11:20:44</view>
-	</view>
-	<view>
-		<view>口</view>
-		<view>标题：待完成事项</view>
-		<view>时间:2017-06-29 11:20:44</view>
-	</view>
-	<view>
-		<view>口</view>
-		<view>标题：待完成事项</view>
-		<view>时间:2017-06-29 11:20:44</view>
-	</view>		
+<view class="wrap">
+  <view class="list clearfix">
+    <view class="checkbox">
+      <image src="../../imgs/list-on.png"></image>
+    </view>
+    <view class="content">
+      <view class="title">标题：待完成事项,可能会很长,多长呢?也许这么长,也许还不止,谁知道用户会输入多长的内容,搞笑</view>
+      <view class="time">时间:2017-06-29 11:20:44</view>  
+    </view>
+  </view>	
 </view>

@@ -5,11 +5,12 @@
     "pages/my/my"
   ],
   "window":{
-    "backgroundTextStyle":"black",
+    "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#36459b",
     "navigationBarTitleText": "烂笔头",
     "navigationBarTextStyle":"white",
-    "backgroundColor": "#eceff1"
+    "backgroundColor": "#eceff1",
+    "enablePullDownRefresh": true
   },
   "tabBar": {
     "color": "#bdbdbd",
