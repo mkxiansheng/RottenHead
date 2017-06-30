@@ -1,34 +1,30 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs",
+    "pages/add/add",
     "pages/my/my"
   ],
   "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "backgroundTextStyle":"black",
+    "navigationBarBackgroundColor": "#36459b",
+    "navigationBarTitleText": "烂笔头",
+    "navigationBarTextStyle":"white",
+    "backgroundColor": "#eceff1"
   },
   "tabBar": {
-    "color": "#7a7e83",
-    "selectedColor": "#003a9b",
+    "color": "#bdbdbd",
+    "selectedColor": "#3f51b5",
     "borderStyle": "black",
     "backgroundColor": "#fff",
     "list": [{
       "pagePath": "pages/index/index",
-      "iconPath": "imgs/add.png",
-      "selectedIconPath": "imgs/add.png",
+      "iconPath": "imgs/list-off.png",
+      "selectedIconPath": "imgs/list-on.png",
       "text": "列表"
     },{
-      "pagePath": "pages/logs/logs",
-      "iconPath": "imgs/add.png",
-      "selectedIconPath": "imgs/add.png",
-      "text": "添加"
-    },{
       "pagePath": "pages/my/my",
-      "iconPath": "imgs/add.png",
-      "selectedIconPath": "imgs/add.png",
+      "iconPath": "imgs/my-off.png",
+      "selectedIconPath": "imgs/my-on.png",
       "text": "我的"
     }]
   },
