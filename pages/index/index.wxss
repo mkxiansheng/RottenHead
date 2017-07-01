@@ -2,6 +2,7 @@
   width: 630rpx;
   padding: 20rpx;
   background-color: #fff;
+  margin-bottom: 40rpx;
 }
 .checkbox,
 .content {
